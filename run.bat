@@ -2,8 +2,8 @@
 cd /d "%~dp0"
 
 echo === Installing ===
-call npm install
+call pnpm install
 
 echo.
 echo === Starting ===
-npm start
+pnpm start
