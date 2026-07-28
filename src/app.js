@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './app.css';
 import { useEffect, useState } from 'react';
 function App() {
   const [game, setGame] = useState(["", "", "", "", "", "", "", "", "",])
